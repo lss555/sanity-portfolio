@@ -32,9 +32,9 @@ export default async function Project() {
               alt={project.name}
               className="bg-zinc-800 rounded-md p-2"
             />
-            <div>
-              <h2 className="font-semibold mb-1">{project.name}</h2>
-              <div className="text-sm text-zinc-400">{project.tagline}</div>
+            <div className="bg-[#1d1d20]">
+              <h2 className="font-semibold mb-1 bg-[#1d1d20]">{project.name}</h2>
+              <div className="text-sm text-zinc-400 bg-[#1d1d20]">{project.tagline}</div>
             </div>
           </Link>
         ))}

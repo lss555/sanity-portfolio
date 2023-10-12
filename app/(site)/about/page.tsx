@@ -8,7 +8,7 @@ export default async function About() {
   const profile: ProfileType[] = await getProfile();
 
   return (
-    <main className="lg:max-w-7xl mx-auto max-w-3xl md:px-16 px-6">
+    <main className="lg:max-w-7xl mx-auto max-w-3xl md:px-16 px-6 bg-[#C6D5C6]">
       {profile &&
         profile.map((data) => (
           <div key={data._id}>
@@ -39,7 +39,7 @@ export default async function About() {
                     href={`${data.resumeURL}?dl=${data.fullName}_resume`}
                     className="flex items-center justify-center gap-x-2 bg-[#1d1d20] border border-transparent hover:border-zinc-700 rounded-md duration-200 py-2 text-center cursor-cell font-medium"
                   >
-                    <BiFile className="text-base" /> Download Resumé
+                    <BiFile className="text-base" /> Download Resume
                   </a>
                 </div>
 

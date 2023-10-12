@@ -34,7 +34,7 @@ export default async function Project({ params }: Props) {
   const project: ProjectType = await getSingleProject(slug);
 
   return (
-    <main className="max-w-6xl mx-auto lg:px-16 px-8">
+    <main className="max-w-6xl mx-auto lg:px-16 px-8 bg-[#1d1d20]">
       <div className="max-w-3xl mx-auto">
         <div className="flex items-start justify-between mb-4">
           <h1 className="font-bold lg:text-5xl text-3xl lg:leading-tight mb-4">
