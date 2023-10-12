@@ -3,9 +3,9 @@ import { deskTool } from "sanity/desk";
 import { schemaTypes } from "./schemas";
 
 export default defineConfig({
-  name: "sanity-nextjs-site",
+  name: "sanity-studio-portfolio",
   title: "Sanity Next.js Site",
-  projectId: "ga8lllhf",
+  projectId: "2yg84u70",
   dataset: "production",
   basePath: "/studio",
   plugins: [deskTool()],
