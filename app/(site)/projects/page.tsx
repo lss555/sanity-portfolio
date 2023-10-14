@@ -12,7 +12,7 @@ export default async function Project() {
         <h1 className="text-3xl font-bold tracking-tight sm:text-5xl mb-6 lg:leading-[3.7rem] leading-tight">
           Featured projects I&apos;ve built over the years
         </h1>
-        <p className="text-base text-zinc-400 leading-relaxed">
+        <p className="text-black text-zinc-400 leading-relaxed">
           I&apos;ve worked on lots of little projects some bigger then others over the years but these
           are the ones that I&apos;m most proud of. Some of them I can't share but ask I would love to tell you what I've done on them!
         </p>
@@ -33,7 +33,7 @@ export default async function Project() {
               className="bg-zinc-800 rounded-md p-2"
             />
             <div className="bg-[#1d1d20]">
-              <h2 className="font-semibold mb-1 bg-[#1d1d20]">{project.name}</h2>
+              <h2 className="font-semibold mb-1 bg-[#1d1d20] text-white">{project.name}</h2>
               <div className="text-sm text-zinc-400 bg-[#1d1d20]">{project.tagline}</div>
             </div>
           </Link>

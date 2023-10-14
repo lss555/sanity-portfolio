@@ -37,7 +37,7 @@ export default async function About() {
 
                   <a
                     href={`${data.resumeURL}?dl=${data.fullName}_resume`}
-                    className="flex items-center justify-center gap-x-2 bg-[#1d1d20] border border-transparent hover:border-zinc-700 rounded-md duration-200 py-2 text-center cursor-cell font-medium"
+                    className="flex items-center justify-center gap-x-2 bg-[#1d1d20] border border-transparent hover:border-zinc-700 rounded-md duration-200 py-2 text-center cursor-cell font-medium text-white"
                   >
                     <BiFile className="text-base" /> Download Resume
                   </a>
@@ -59,7 +59,7 @@ export default async function About() {
 
             <section className="mt-24 max-w-2xl">
               <h2 className="font-semibold text-4xl mb-4">Expertise</h2>
-              <p className="text-zinc-400 max-w-lg">
+              <p className="text-black max-w-lg">
                 I&apos;ve spent few years working on my skills. In no particular
                 order, here are a few of them.
               </p>
@@ -68,7 +68,7 @@ export default async function About() {
                 {data.skills.map((skill, id) => (
                   <li
                     key={id}
-                    className="bg-[#1d1d20] border border-transparent hover:border-zinc-700 rounded-md px-2 py-1"
+                    className="bg-[#dfebdf] border border-transparent hover:border-zinc-700 rounded-md px-2 py-1"
                   >
                     {skill}
                   </li>

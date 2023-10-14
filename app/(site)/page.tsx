@@ -15,7 +15,7 @@ export default async function Home() {
               <h1 className="text-3xl font-bold tracking-tight sm:text-5xl mb-6 lg:leading-[3.7rem] leading-tight lg:min-w-[700px] min-w-full">
                 {data.headline}
               </h1>
-              <p className="text-base text-zinc-400 leading-relaxed">
+              <p className="text-base text-black leading-relaxed">
                 {data.shortBio}
               </p>
               <ul className="flex items-center gap-x-6 my-10">
@@ -26,7 +26,7 @@ export default async function Home() {
                       <a
                         href={value}
                         rel="noreferer noopener"
-                        className="flex items-center gap-x-3 mb-5 hover:text-purple-400 duration-300"
+                        className="flex items-center gap-x-3 mb-5 hover:text-purple-400 duration-300 bg-[#dfebdf] border border-transparent hover:border-zinc-700 rounded-md px-2 py-1"
                       >
                         {key[0].toUpperCase() + key.toLowerCase().slice(1)}
                       </a>
